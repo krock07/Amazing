@@ -23,7 +23,7 @@ const reducer = (state, action) => {
         basket: [],
       };
 
-    case "REMOVE_FROM_BASKET":
+    case "REMOVE_FROM_CART":
       const index = state.basket.findIndex(
         (basketItem) => basketItem.id === action.id
       );

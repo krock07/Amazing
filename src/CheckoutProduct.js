@@ -7,8 +7,10 @@ function CheckoutProduct({ id, image, title, price, rating, hideButton }) {
 
   const removeFromCart = () => {
     //remove item from cart
+    // send action into the reducer
+    //get id to know which item to delete
     dispatch({
-      type: "REMOVE_FROM_BASKET",
+      type: "REMOVE_FROM_CART",
       id: id,
     });
   };
@@ -28,7 +30,7 @@ function CheckoutProduct({ id, image, title, price, rating, hideButton }) {
               <p>⭐</p>
             ))}
         </div>
-        {hideButton && (
+        {!hideButton && (
           <button onClick={removeFromCart}>Remove from Cart</button>
         )}
       </div>
