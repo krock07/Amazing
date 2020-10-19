@@ -11,6 +11,7 @@ function Subtotal() {
   return (
     <div className="subtotal">
       <CurrencyFormat
+        // value is a render prop//
         renderText={(value) => (
           <>
             <p>
@@ -29,7 +30,7 @@ function Subtotal() {
         prefix={"$"}
       />
 
-      <button onClick={(event) => history.push("/payment")}>
+      <button onClick={(e) => history.push("/payment")}>
         Proceed to Checkout
       </button>
     </div>

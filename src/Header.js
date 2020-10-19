@@ -41,7 +41,7 @@ function Header() {
           </div>
         </Link>
 
-        <Link to="./orders">
+        <Link to="/orders">
           <div className="header_option">
             <span className="header__optionLineOne">Returns</span>
             <span className="header__optionLineTwo">& Orders</span>
@@ -58,6 +58,7 @@ function Header() {
         <div className="header_optionBasket">
           <ShoppingBasketIcon />
           <span className="header__optionLineTwo header_basketCount">
+            {/* use optional chaining to avoid worry about if the cart length is undefined and traverse through the data  */}
             {basket?.length}
           </span>
         </div>

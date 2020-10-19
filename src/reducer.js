@@ -5,6 +5,7 @@ export const initialState = {
 
 //Selector
 export const getCartTotal = (basket) =>
+  // loop through cart and tally the total price of cart and each item
   basket?.reduce((amount, item) => item.price + amount, 0);
 
 const reducer = (state, action) => {
@@ -13,7 +14,7 @@ const reducer = (state, action) => {
     case "ADD_TO_CART":
       return {
         ...state, //what the state originally was//
-        basket: [...state.basket, action.item], //plus what is added to the basket
+        basket: [...state.basket, action.item], //plus what is added to the cart
       };
 
     case "EMPTY_CART":
