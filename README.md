@@ -20,7 +20,7 @@ The features include:
 
 ## Home Page 
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Amazing Home Page](https://github.com/krock07/Amazing/blob/main/public/Screenshot%202021-02-02%20162143.png)
 
 ## Live url -
 
