@@ -22,6 +22,9 @@ The features include:
 
 ![Amazing Home Page](https://github.com/krock07/Amazing/blob/main/public/Screenshot%202021-02-02%20162143.png)
 
+## Order Page
+![Amazing Orders Page](https://raw.githubusercontent.com/krock07/Amazing/main/public/Screenshot%202021-02-02%20162249.png)
+
 ## Live url -
 
 https://challenge-5036f.web.app/
