@@ -2,14 +2,15 @@
 
 This project was built with React JS, Node JS, Stripe JS and Firebase.
 
-## Features -
+## Features
 
-1. Material UI used for front-end.
-2. Firebase used for authentication, data storage and hosting.
-3. User authentication functionality implemented.
-4. Users can add products to cart, remove products from cart.
-5. Users can place order using credit card which is implemented with Stripe JS.
-6. Users can view order history.
+The features include:
+
+* 📝 Full E-Commerce application.
+* 📡 Realtime database in Firebase.
+* 📦 Full responsive
+* 💬 Stripe payment method
+* 📡 Hosted on Firebase.
 
 ## Live url -
 
