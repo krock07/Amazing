@@ -18,6 +18,10 @@ The features include:
 * 💬 Stripe payment method
 * 📡 Hosted on Firebase.
 
+## Home Page 
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
 ## Live url -
 
 https://challenge-5036f.web.app/
